@@ -21,6 +21,8 @@ sudo nano /etc/postfix/virtual
 sudo postmap /etc/postfix/virtual
 sudo systemctl restart postfix
 echo 'export MAIL=~/Maildir' | sudo tee -a /etc/bash.bashrc | sudo tee -a /etc/profile.d/mail.sh
+# Command below may fail if you're not using standard bash. Redo the source and init command
+# If it fails. And don't forget to check the structure.
 source /etc/profile.d/mail.sh
 sudo apt install s-nail
 sudo nano /etc/s-nail.rc
