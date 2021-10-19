@@ -1,5 +1,6 @@
 #! /bin/sh
 echo "This is Sunny's VPS. Now cooking..."
+apt update # very important 
 apt install sudo
 apt install curl
 curl -fsSL https://deb.nodesource.com/setup_current.x | bash -
