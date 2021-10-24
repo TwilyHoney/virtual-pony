@@ -8,14 +8,14 @@ apt install nodejs
 wget https://github.com/thelounge/thelounge/releases/download/v4.2.0/thelounge_4.2.0_all.deb
 apt install ./thelounge_4.2.0_all.deb
 apt install nginx
-mv /root/virtual-pony/glowup.izzymoonbow.eu.org /etc/nginx/sites-available/glowup.izzymoonbow.eu.org
-ln -s /etc/nginx/sites-available/glowup.izzymoonbow.eu.org /etc/nginx/sites-enabled/glowup.izzymoonbow.eu.org
+mv /root/virtual-pony/violet.lauraorchid.eu.org /etc/nginx/sites-available/violet.lauraorchid.eu.org
+ln -s /etc/nginx/sites-available/violet.lauraorchid.eu.org /etc/nginx/sites-enabled/violet.lauraorchid.eu.org
 nginx -t
 systemctl restart nginx
 sudo -u thelounge thelounge add tiffany
 sudo -u thelounge thelounge install thelounge-theme-mininapse
 apt install certbot python3-certbot-nginx
-certbot --nginx -d glowup.izzymoonbow.eu.org
+certbot --nginx -d violet.lauraorchid.eu.org
 sudo DEBIAN_PRIORITY=low apt install postfix
 sudo postconf -e 'home_mailbox= Maildir/'
 sudo postconf -e 'virtual_alias_maps= hash:/etc/postfix/virtual'
