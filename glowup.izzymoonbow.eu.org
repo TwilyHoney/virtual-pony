@@ -8,8 +8,8 @@ upstream 127.0.0.1 {
 server {
     listen 80;
     listen [::]:80;
-    server_name glowup.izzymoonbow.eu.org www.glowup.izzymoonbow.eu.org;
-    access_log /var/log/nginx/glowup.izzymoonbow.eu.org.log;
+    server_name violet.lauraorchid.eu.org www.violet.lauraorchid.eu.org;
+    access_log /var/log/nginx/violet.lauraorchid.eu.org.log;
 
     # pass the request to the node.js server with the correct headers
     # and much more can be added, see nginx config options
