@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/bash
 echo "This is Sunny's VPS. Now cooking..."
 apt update # very important 
 apt install sudo
