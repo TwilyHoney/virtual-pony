@@ -10,7 +10,6 @@ apt-get -y upgrade
 echo
 echo "Removing unused packages if any..."
 apt-get -y autoremove
-needrestart -r a
 if [ -f /var/run/reboot-required ]; then
   echo 'Hey please head over to VPS dashboard and click restart'
 fi
