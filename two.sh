@@ -1,4 +1,4 @@
 #! /bin/sh
-rm /root/virtual-pony/result.txt
-bash /root/virtual-pony/one.sh >> /root/virtual-pony/result.txt
-cat /root/virtual-pony/result.txt | s-nail -s 'Hey did i have an update' -r moon@pinkiehoney.eu.org rarihoney@gmail.com
+rm /root/result.txt
+bash /root/one.sh >> /root/result.txt
+cat /root/result.txt | s-nail -s 'Hey did i have an update' -r moon@static.126.144.119.168.clients.your-server.de rarihoney@gmail.com
