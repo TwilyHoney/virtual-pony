@@ -1,6 +1,6 @@
 #! /bin/bash
 export DEBIAN_FRONTEND=noninteractive
-echo "PonyUp script. Copyright 2021 CanterLogic Inc."
+echo "PonyUp script. Copyright 2022 CanterLogic Inc."
 echo
 echo "Updating package list..."
 apt-get update
